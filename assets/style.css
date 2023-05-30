@@ -1,0 +1,55 @@
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppinsb;
+    src: url(./fonts/Poppins-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+a {
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+h2 {
+    text-decoration: underline;
+}
+
+html, main, body {
+    margin-bottom: 0;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 2.5px solid black;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 20rem;
+}
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    border: 2.5px solid black;
+}
+
+article {
+    border: 1px solid black;
+}
+article:nth-child(even) {
+    background-color: lightgray;
+}
